@@ -1,6 +1,6 @@
 # Enviroment Configurations
 
-Paragraph explain what this documentation is as what it contains
+This is a documentation of basic **Terminal** and **Git** commands
 
 ## Termainal commands
 
