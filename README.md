@@ -1,6 +1,6 @@
 # Enviroment Configurations
 
-Paragraph expla what this documentation is as what it contains
+Paragraph explain what this documentation is as what it contains
 
 ## Termainal commands
 
@@ -55,9 +55,9 @@ Paragraph expla what this documentation is as what it contains
    sudo rm -r <name>
    # follow instractions
    ```
-13. Copy file
+13. Copy file/directory
    ```bash
-   cp <fileName> <dirName>
+   cp <fileName/dirName> <dirName>
    ```
 14. Autofill
    ```bash
@@ -67,15 +67,32 @@ Paragraph expla what this documentation is as what it contains
    ```bash
    nano <name>
    ```
-16. Move file to a folder
+16. Move file/directory to a folder
    ```bash
-   mv <file> <dir>
+   mv <file/dir> <dir>
    ```
 17. Rename file 
    ```bash
    mv <oldName> <newName>
    ```
-
+18. Open coded in VSC
+   ```bash
+   code .
+   # to open file write code <name>
+   ```
+19. Clean Terminal
+   ```bash
+   clear 
+   ```
+20. Put text inside file
+   ```bash
+   echo <fileName> 
+   cat >> <fileName> 
+   ```
+21. Preview of text
+   ```bash
+   cat <name>
+   ```
 
 
 ## Git Commands
@@ -83,4 +100,46 @@ Paragraph expla what this documentation is as what it contains
 1. Initialize Git repo
    ```bash
    git init
+   ```
+2. Clone repo
+   ```bash
+   git clone [url]
+   ```
+3. Shows modified files in current dir
+   ```bash
+   git status
+   ```
+4. Add files
+   ```bash
+   git add .
+   # for all files, for one <name of file>
+   ```
+5. Commit content to the repo
+   ```bash
+   git commit -m "description"
+   ```
+6. Push updates
+   ```bash
+   git push origin <nameOfTheBranch>
+   ```
+7. Create a branch and switch branch
+   ```bash
+   git checkout -b <new branch name>
+   ```
+8. List of yours branches
+   ```bash
+   git branch
+   ```
+9. Shows all commits in branch history
+   ```bash
+   git log
+   ```
+10. Pull commits from tracking branch
+   ```bash
+   git pull
+   ```
+11. Delete branch
+   ```bash
+   git branch -d <name>
+   # switch to main before
    ```
