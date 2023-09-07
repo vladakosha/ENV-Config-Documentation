@@ -1,6 +1,6 @@
 # Enviroment Configurations
 
-This is a documentation of basic **Terminal** and **Git** commands
+This is documentation of basic **Terminal** and **Git** commands
 
 ## Termainal commands
 
@@ -43,57 +43,56 @@ This is a documentation of basic **Terminal** and **Git** commands
    touch <name.formate>
    ```
 10. Delete file
-   ```bash
-   rm <name>
-   ```
+    ```bash
+    rm <name>
+    ```
 11. Delete folder
-   ```bash
-   rm -r <name>
-   ```
+    ```bash
+    rm -r <name>
+    ```
 12. Delete full folder
-   ```bash
-   sudo rm -r <name>
-   # follow instractions
-   ```
+    ```bash
+    sudo rm -r <name>
+    # follow instractions
+    ```
 13. Copy file/directory
-   ```bash
-   cp <fileName/dirName> <dirName>
-   ```
+    ```bash
+    cp <fileName/dirName> <dirName>
+    ```
 14. Autofill
-   ```bash
-   # start to tape name of dir/file and press TAP
-   ```
+    ```bash
+    # start to tape name of dir/file and press TAP
+    ```
 15. Open file in Terminal
-   ```bash
-   nano <name>
-   ```
+    ```bash
+    nano <name>
+    ```
 16. Move file/directory to a folder
-   ```bash
-   mv <file/dir> <dir>
-   ```
+    ```bash
+    mv <file/dir> <dir>
+    ```
 17. Rename file 
-   ```bash
-   mv <oldName> <newName>
-   ```
+    ```bash
+    mv <oldName> <newName>
+    ```
 18. Open coded in VSC
-   ```bash
-   code .
-   # to open file write code <name>
-   ```
+    ```bash
+    code .
+    # to open file write code <name>
+    ```
 19. Clean Terminal
-   ```bash
-   clear 
-   ```
+    ```bash
+    clear 
+    ```
 20. Put text inside file
-   ```bash
-   echo <fileName> 
-   cat >> <fileName> 
-   ```
+    ```bash
+    echo <fileName> 
+    cat >> <fileName> 
+    ```
 21. Preview of text
-   ```bash
-   cat <name>
-   ```
-
+    ```bash
+    cat <name>
+    ```  
 
 ## Git Commands
 
@@ -120,13 +119,14 @@ This is a documentation of basic **Terminal** and **Git** commands
    ```
 6. Push updates
    ```bash
-   git push origin <nameOfTheBranch>
+   git push -u origin <nameOfTheBranch>
+   # without -u if you update it not for a first time
    ```
-7. Create a branch and switch branch
+7. Create a branch and switch branches
    ```bash
    git checkout -b <new branch name>
    ```
-8. List of yours branches
+8. List of your branches
    ```bash
    git branch
    ```
@@ -135,11 +135,11 @@ This is a documentation of basic **Terminal** and **Git** commands
    git log
    ```
 10. Pull commits from tracking branch
-   ```bash
-   git pull
-   ```
+    ```bash
+    git pull
+    ```
 11. Delete branch
-   ```bash
-   git branch -d <name>
-   # switch to main before
-   ```
+    ```bash
+    git branch -d <name>
+    # switch to main before
+    ```
